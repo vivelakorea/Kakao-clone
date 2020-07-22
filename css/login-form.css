@@ -1,0 +1,44 @@
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+#login-form input {
+  border: none;
+
+  font-size: 16px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+#login-form input[type="text"],
+#login-form input[type="password"] {
+  border-bottom: 1px solid rgb(191, 191, 191);
+  outline: none;
+  transition: border, color 0.3s;
+}
+
+/* 
+  Todo: value(Log In, Sign Up) 세로 가운데 정렬
+  #login-form input::value {
+    
+  } */
+
+#login-form input::placeholder {
+  color: rgb(198, 198, 198);
+}
+/*Todo: plaeholder 글자도 노랗게 변하게 만들기*/
+/* #login-form input::placeholder:hover {
+    color: var(--yellow);
+  } */
+
+#login-form input:focus {
+  border-color: var(--yellow);
+}
+
+#login-form > a {
+  display: flex;
+  justify-content: center;
+  padding-top: 18px;
+  color: rgb(141, 141, 141);
+}
