@@ -1,0 +1,40 @@
+.nav {
+  background-color: rgb(248, 248, 249);
+  padding: 20px 50px;
+  border-top: 1px solid rgb(241, 241, 242);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  position: relative;
+}
+.nav__notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(251, 95, 24);
+  color: white;
+  font-size: small;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  right: -30%;
+  top: -100%;
+}
+
+.nav__red-dot {
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: rgba(255, 0, 0, 0.8);
+  position: absolute;
+  right: -5px;
+}
