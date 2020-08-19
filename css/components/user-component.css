@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.user-component {
+  justify-content: space-between;
+}
+
 .user-component__avatar {
   height: 70px;
   width: 70px;
@@ -16,9 +20,15 @@
   height: 80px;
 }
 
+.user-component__avatar--sm {
+}
+
 .user-component__title {
   font-weight: 600;
   font-size: 22px;
+}
+.user-component__title__not-bold {
+  font-weight: 400;
 }
 
 .user-component__subtitle {
@@ -29,4 +39,14 @@
 
 .friends-screen {
   padding: 0 var(--horizontal-space);
+}
+
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 50px;
+}
+
+.friends-screen__channel-header {
+  margin-bottom: 30px;
 }
