@@ -1,3 +1,3 @@
-# Kakao-clone
+# Kokoa Clone 2020 Update
 
-I'm gonna clone kakao desktop app with only html and css.
+HTML & CSS are so much fun!
