@@ -89,6 +89,7 @@
 
 .message-row--own {
   justify-content: flex-end;
+  margin-bottom: 50px;
 }
 
 .message-row--own .message__bubble {
